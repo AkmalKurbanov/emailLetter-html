@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .flabContainer {
+      font-family: sans-serif;
+      background-color: #e7eaeb;
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+
+    .flabWrapper {
+      background-color: #ffffff;
+      border-radius: 10px;
+      padding-top: 210px;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-bottom: 100px;
+      max-width: 580px;
+      width: 100%;
+      margin: auto;
+      margin-top: -220px;
+    }
+
+    .flabHeader {
+      position: relative;
+      padding-top: 25px;
+      background-color: #ddd;
+      padding-bottom: 150px;
+      border-radius: 10px;
+      max-width: 580px;
+      margin: auto;
+      margin-bottom: -150px;
+      width: 100%;
+      border: 1px solid #eee;
+    }
+
+    .flabLogo {
+      display: inline-block;
+      padding-left: 30px;
+      max-width: 130px;
+      width: 100%;
+    }
+
+    .flabLogo img {
+      width: 100%;
+      max-width: 100%;
+    }
+
+    .flabHeaderLink {
+      position: absolute;
+      right: 30px;
+      bottom: 150px;
+      color: #000000;
+      font-size: 13px;
+    }
+
+    .flabHeaderLink:hover {
+      text-decoration: none;
+    }
+
+    .flabBaner {
+      background-color: #121d3d;
+      background-image: url('http://screen.flabio.tech/email/emaildark.png');
+      background-repeat: no-repeat;
+      height: 280px;
+      max-width: 550px;
+      width: 100%;
+      color: #ffffff;
+      margin: auto;
+      border-radius: 10px;
+      margin-top: 15px;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+    }
+
+    .flabBaner p {
+      font-size: 20px;
+      padding-top: 120px;
+    }
+
+    .flabText {
+      font-size: 15px;
+      margin-bottom: 35px;
+    }
+
+    .flabText span {
+      color: #4fb5fd;
+      font-size: 20px;
+      padding-right: 10px;
+    }
+
+    .flabTextLine {
+      font-size: 15px;
+      margin-bottom: 35px;
+      position: relative;
+    }
+
+    .flabTextLine span {
+      color: #4fb5fd;
+      font-size: 20px;
+      padding-right: 10px;
+    }
+
+    .flabCaption {
+      margin-bottom: 30px;
+    }
+
+    .flabTextCenter {
+      font-size: 18px;
+      text-align: center;
+      margin-top: 0;
+    }
+
+    ul {
+      margin: 0;
+      padding: 0;
+    }
+
+    ul li {
+      list-style: none;
+      margin-bottom: 20px;
+      font-size: 14px;
+      position: relative;
+    }
+
+    ul li span {
+      color: #4fb5fd;
+      margin-right: 10px;
+    }
+
+    ol {
+      margin: 0;
+      padding-left: 15px;
+      padding-bottom: 20px;
+    }
+
+    ol li {
+      margin-bottom: 20px;
+      position: relative;
+      padding-left: 20px;
+    }
+
+    ol li a {
+      text-decoration: none;
+      color: #000000;
+      transition: all .3s;
+    }
+
+    ol li a:hover {
+      color: #aeabab;
+    }
+
+    .flabSender {
+      vertical-align: middle;
+    }
+
+    .flabSenderAvatar {
+      border-radius: 100%;
+      width: 84px;
+      height: 84px;
+      overflow: hidden;
+      display: inline-block;
+      margin-right: 20px;
+    }
+
+    flabSenderAvatar img {
+      width: 100%;
+      max-width: 100%;
+    }
+
+    .flabSender p {
+      display: inline-block;
+      vertical-align: top;
+      line-height: 1.25;
+    }
+
+    .flabFooter {
+      margin-top: 50px;
+      background-color: #121d3d;
+      min-height: 150px;
+      max-width: 580px;
+      width: 100%;
+      margin: auto;
+      border-radius: 10px;
+      margin-top: -70px;
+      text-align: center;
+    }
+
+    .flabFooterCol {
+      padding-left: 15px;
+      margin: auto;
+      margin-right: 40px;
+      text-align: left;
+      display: inline-block;
+    }
+
+    .flabFooterColCaption {
+      text-transform: uppercase;
+      color: #fff;
+      font-size: 18px;
+      position: relative;
+      margin-bottom: 30px;
+    }
+
+    .flabFooterColCaption span {
+      color: #4fb5fd;
+    }
+
+    .flabFooterCol ul li {
+      color: #aeabab;
+    }
+
+    .flabFooterCol ul li a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+
+    .flabFooterCol ul {
+      padding-bottom: 0;
+    }
+
+    .flabCopy {
+      font-size: 14px;
+      color: #232323;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="flabContainer">
+    <div class="flabHeader">
+      <div class="flabLogo">
+        <a href="#">
+          <img src="http://screen.flabio.tech/email/logo.png" alt="">
+        </a>
+      </div>
+      <a href="#" class="flabHeaderLink">открыть в браузере</a>
+    </div>
+    <div class="flabBaner">
+      <p>Нужна информация по разработке сайта? Заходите!</p>
+    </div>
+    <div class="flabWrapper">
+      <p class="flabText">Наша команда
+        <b>"Flabio"</b> более 3 лет базируемся по разработке различных сайтов. Предлагаем Вам индивидуальный подход и условия
+        сотрудничества с нацеленностью на долгие годы совместной работы. У нас небольшая команда. Состоит из 15 человек.
+        У нас есть большой опыт и знания.</p>
+      <p class="flabText">Мы уверены, что создадим оптимальные условия, при которых будет выгодно работать и Вам, и нам.</p>
+      <p class="flabCaption">
+        <b>Наши навыки: </b>
+      </p>
+      <ul>
+        <li>
+          <span>&#10004;</span> OctoberCMS, Bitrix, Modx, WordPress+HTML5 + CSS3 </li>
+        <li>
+          <span>&#10004;</span> JavaScript + JQuery + AJAX + JSON + XML </li>
+        <li>
+          <span>&#10004;</span> Twitter Bootstrap </li>
+        <li>
+          <span>&#10004;</span> BEM</li>
+        <li>
+          <span>&#10004;</span> PSD2CMS</li>
+        <li>
+          <span>&#10004;</span> LESS, SASS, SCSS </li>
+        <li>
+          <span>&#10004;</span> Grunt, Gulp </li>
+        <li>
+          <span>&#10004;</span> Git, SVN </li>
+        <li>
+          <span>&#10004;</span> Адаптивные макеты</li>
+        <li>
+          <span>&#10004;</span> Mobile HTML – iOS/Android </li>
+        <li>
+          <span>&#10004;</span> Semantic, W3C Действительный</li>
+        <li>
+          <span>&#10004;</span> (IE9+, FF, Opera, Safari, Chrome) </li>
+        <li>
+          <span>&#10004;</span> Чистота, точность, комментарии</li>
+        <li>
+          <span>&#10004;</span> Pixel perfect </li>
+      </ul>
+
+      <p class="flabText">
+        <span>|</span>Одни из последних наших работ, Вы можете посмотреть по следующим ссылкам:</p>
+      <ol>
+        <li>
+          <a href="http://html.flabio.kg/altay-html/index.html">http://html.flabio.kg/altay-html/index.html</a>
+        </li>
+        <li>
+          <a href="http://html.flabio.kg/0neSudio-html/dist/index.html">http://html.flabio.kg/0neSudio-html/dist/index.html</a>
+        </li>
+        <li>
+          <a href="http://html.flabio.kg/beeline-html/index.html">http://html.flabio.kg/beeline-html/index.html</a>
+        </li>
+        <li>
+          <a href="http://html.flabio.kg/csgo-html/index.html">http://html.flabio.kg/csgo-html/index.html</a>
+        </li>
+        <li>
+          <a href="http://html.flabio.kg/trustpharm-html/index.html">http://html.flabio.kg/trustpharm-html/index.html</a>
+        </li>
+      </ol>
+
+      <p class="flabTextLine">
+        <span>|</span>Все проекты были сделаны под ключ.При необходимости вышлю ссылки на реальные работы.</p>
+
+      <ul>
+        <li>
+          <span>&#927;</span>Нас интересует сотрудничество в формате удаленной работы. </li>
+        <li>
+          <span>&#927;</span>Мы можем реализовать проекты как под ключ, так и на любой стадии разработки и поддержки.</li>
+        <li>
+          <span>&#927;</span>Вся команда работает отлажено и в моменты горящих дэдлайнов может подключить дополнительные ресурсы
+          и силы для оперативной сдачи проектов. </li>
+        <li>
+          <span>&#927;</span>Нас интересует сотрудничество как по часовой оплате, так и по проектной.</li>
+        <li>
+          <span>&#927;</span>Готовы реализовать любое тестовое задание любой сложности.</li>
+      </ul>
+
+      <p class="flabTextCenter">С нетерпением жду от Вас фидбэка. </p>
+
+      <div class="flabSender">
+        <div class="flabSenderAvatar">
+          <img src="http://screen.flabio.tech/email/avatar.jpg" alt="">
+        </div>
+        <p>С уважением,
+          <br> Менеджер,
+          <br> Эралиева Айдана!
+        </p>
+      </div>
+
+
+    </div>
+    <div class="flabFooter">
+      <ul>
+        <li class="flabFooterCol">
+          <p class="flabFooterColCaption">
+            <span>|</span> Связаться с нами:</p>
+          <ul>
+            <li>
+              Facebook:
+              <a href="mailto:flab io"> flab io</a>
+            </li>
+            <li>
+              Twitter:
+              <a href="mailto::@flab_io"> @flab_io</a>
+            </li>
+            <li>
+              Skype:
+              <a href="mailto::info@flabio.ru"> info@flabio.ru</a>
+            </li>
+          </ul>
+        </li>
+        <li class="flabFooterCol">
+          <p class="flabFooterColCaption">
+            <span>|</span> Контакты</p>
+          <ul>
+            <li>Кыргызская Республика, Бишкек</li>
+            <li>
+              тел:
+              <a href="tel:996707283293">+996 (707) 28 32 93</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <p class="flabCopy">Copyright © 2017 “Flabio”.Все права защищены.</p>
+  </div>
+</body>
+
+</html>

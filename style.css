@@ -1,0 +1,229 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.flabContainer {
+  font-family: sans-serif;
+  background-color: #e7eaeb;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.flabWrapper {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding-top: 210px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 100px;
+  max-width: 580px;
+  width: 100%;
+  margin: auto;
+  margin-top: -220px;
+}
+
+.flabHeader {
+  position: relative;
+  padding-top: 25px;
+  background-color: #ddd;
+  padding-bottom: 150px;
+  border-radius: 10px;
+  max-width: 580px;
+  margin: auto;
+  margin-bottom: -150px;
+  width: 100%;
+  border: 1px solid #eee;
+}
+
+.flabLogo {
+  display: inline-block;
+  padding-left: 30px;
+  max-width: 130px;
+  width: 100%;
+}
+
+.flabLogo img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.flabHeaderLink {
+  position: absolute;
+  right: 30px;
+  bottom: 150px;
+  color: #000000;
+  font-size: 13px;
+}
+
+.flabHeaderLink:hover {
+  text-decoration: none;
+}
+
+.flabBaner {
+  background-color: #121d3d;
+  background-image: url('http://screen.flabio.tech/email/emaildark.png');
+  background-repeat: no-repeat;
+  height: 280px;
+  max-width: 550px;
+  width: 100%;
+  color: #ffffff;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 15px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.flabBaner p {
+  font-size: 20px;
+  padding-top: 120px;
+}
+
+.flabText {
+  font-size: 15px;
+  margin-bottom: 35px;
+}
+
+.flabText span {
+  color: #4fb5fd;
+  font-size: 20px;
+  padding-right: 10px;
+}
+
+.flabTextLine {
+  font-size: 15px;
+  margin-bottom: 35px;
+  position: relative;
+}
+
+.flabTextLine span {
+  color: #4fb5fd;
+  font-size: 20px;
+  padding-right: 10px;
+}
+
+.flabCaption {
+  margin-bottom: 30px;
+}
+
+.flabTextCenter {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+  margin-bottom: 20px;
+  font-size: 14px;
+  position: relative;
+}
+
+ul li span {
+  color: #4fb5fd;
+  margin-right: 10px;
+}
+
+ol {
+  margin: 0;
+  padding-left: 15px;
+  padding-bottom: 20px;
+}
+
+ol li {
+  margin-bottom: 20px;
+  position: relative;
+  padding-left: 20px;
+}
+
+ol li a {
+  text-decoration: none;
+  color: #000000;
+  transition: all .3s;
+}
+
+ol li a:hover {
+  color: #aeabab;
+}
+
+.flabSender {
+  vertical-align: middle;
+}
+
+.flabSenderAvatar {
+  border-radius: 100%;
+  width: 84px;
+  height: 84px;
+  overflow: hidden;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+flabSenderAvatar img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.flabSender p {
+  display: inline-block;
+  vertical-align: top;
+  line-height: 1.25;
+}
+
+.flabFooter {
+  margin-top: 50px;
+  background-color: #121d3d;
+  min-height: 150px;
+  max-width: 580px;
+  width: 100%;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: -70px;
+  text-align: center;
+}
+
+.flabFooterCol {
+  padding-left: 15px;
+  margin: auto;
+  margin-right: 40px;
+  text-align: left;
+  display: inline-block;
+}
+
+.flabFooterColCaption {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 18px;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.flabFooterColCaption span {
+  color: #4fb5fd;
+}
+
+.flabFooterCol ul li {
+  color: #aeabab;
+}
+
+.flabFooterCol ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.flabFooterCol ul {
+  padding-bottom: 0;
+}
+
+.flabCopy {
+  font-size: 14px;
+  color: #232323;
+  text-align: center;
+}
